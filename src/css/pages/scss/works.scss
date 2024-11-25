@@ -1,0 +1,38 @@
+.works {
+    background: #000;
+    overflow: hidden;
+    position: relative;
+
+    .works-inner {
+        position: absolute;
+        left: -5%;
+        padding-top: 130px;
+        display: flex;
+    }
+
+    .tv {
+        width: 1400px;
+        height: 800px;
+
+    }
+
+    ul {
+        margin-left: 50px;
+        color: #fff;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        li {
+            border-bottom: 1px solid #fff;
+            padding: 10px;
+            font-size: 21px;
+
+            &.on {
+                color: #E7C700;
+            }
+        }
+
+    }
+}
