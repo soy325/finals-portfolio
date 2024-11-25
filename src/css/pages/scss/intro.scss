@@ -28,28 +28,31 @@
                 font-size: 43px;
                 padding-bottom: 30px;
             }
-
-            .rocket {
-                position: relative;
-                width: 390px;
-
-                &:hover {
-                    animation: dence 3s infinite;
+            .intro-rocket {
+                .rocket {
+                    position: relative;
+                    width: 390px;
                 }
-            }
 
-            a {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translateX(-50%);
-                font-family: 'MaplestoryOTFBold';
-                font-size: 60px;
-                color: #fff;
-                cursor: pointer;
+                a {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    font-family: 'MaplestoryOTFBold';
+                    font-size: 70px;
+                    color: #fff;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #000;
+                    }
+                }
 
                 &:hover {
-                    color: #000;
+                    .rocket {
+                        animation: dence 3s infinite;
+                    }
                 }
             }
 
@@ -91,7 +94,7 @@
 
         }
 
-        .header-img {
+        .intro-img {
 
             .orange,
             .robot,
@@ -132,27 +135,31 @@
                 padding-bottom: 30px;
             }
 
-            .rocket {
-                position: relative;
-                width: 450px;
-
-                &:hover {
-                    animation: dence 3s infinite;
+            .intro-rocket {
+                .rocket {
+                    position: relative;
+                    width: 450px;
                 }
-            }
 
-            a {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translateX(-50%);
-                font-family: 'MaplestoryOTFBold';
-                font-size: 70px;
-                color: #fff;
-                cursor: pointer;
+                a {
+                    position: absolute;
+                    top: 52%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    font-family: 'MaplestoryOTFBold';
+                    font-size: 70px;
+                    color: #fff;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #000;
+                    }
+                }
 
                 &:hover {
-                    color: #000;
+                    .rocket {
+                        animation: dence 3s infinite;
+                    }
                 }
             }
 
@@ -194,7 +201,7 @@
 
         }
 
-        .header-img {
+        .intro-img {
 
             .orange,
             .robot,
@@ -240,11 +247,12 @@
                 padding-bottom: 30px;
             }
 
-            .header-rocket {
+            .intro-rocket {
                 .rocket {
                     position: relative;
                     width: 450px;
                 }
+
                 a {
                     position: absolute;
                     top: 52%;
@@ -254,12 +262,14 @@
                     font-size: 70px;
                     color: #fff;
                     cursor: pointer;
-                    &:hover{
+
+                    &:hover {
                         color: #000;
                     }
                 }
+
                 &:hover {
-                    .rocket{
+                    .rocket {
                         animation: dence 3s infinite;
                     }
                 }
@@ -303,7 +313,7 @@
 
         }
 
-        .header-img {
+        .intro-img {
             .yellow {
                 position: absolute;
                 bottom: -57%;

@@ -24,25 +24,25 @@
     font-size: 43px;
     padding-bottom: 30px;
   }
-  .intro .intro-inner .rocket {
+  .intro .intro-inner .intro-rocket .rocket {
     position: relative;
     width: 390px;
   }
-  .intro .intro-inner .rocket:hover {
-    animation: dence 3s infinite;
-  }
-  .intro .intro-inner a {
+  .intro .intro-inner .intro-rocket a {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
     font-family: "MaplestoryOTFBold";
-    font-size: 60px;
+    font-size: 70px;
     color: #fff;
     cursor: pointer;
   }
-  .intro .intro-inner a:hover {
+  .intro .intro-inner .intro-rocket a:hover {
     color: #000;
+  }
+  .intro .intro-inner .intro-rocket:hover .rocket {
+    animation: dence 3s infinite;
   }
   @keyframes dence {
     0% {
@@ -70,14 +70,14 @@
       transform: none;
     }
   }
-  .intro .header-img .orange,
-  .intro .header-img .robot,
-  .intro .header-img .spaceman,
-  .intro .header-img .ufo,
-  .intro .header-img .rocket_1 {
+  .intro .intro-img .orange,
+  .intro .intro-img .robot,
+  .intro .intro-img .spaceman,
+  .intro .intro-img .ufo,
+  .intro .intro-img .rocket_1 {
     display: none;
   }
-  .intro .header-img .yellow {
+  .intro .intro-img .yellow {
     position: absolute;
     top: 68%;
     left: -23%;
@@ -101,16 +101,13 @@
     font-size: 70px;
     padding-bottom: 30px;
   }
-  .intro .intro-inner .rocket {
+  .intro .intro-inner .intro-rocket .rocket {
     position: relative;
     width: 450px;
   }
-  .intro .intro-inner .rocket:hover {
-    animation: dence 3s infinite;
-  }
-  .intro .intro-inner a {
+  .intro .intro-inner .intro-rocket a {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translateX(-50%);
     font-family: "MaplestoryOTFBold";
@@ -118,8 +115,11 @@
     color: #fff;
     cursor: pointer;
   }
-  .intro .intro-inner a:hover {
+  .intro .intro-inner .intro-rocket a:hover {
     color: #000;
+  }
+  .intro .intro-inner .intro-rocket:hover .rocket {
+    animation: dence 3s infinite;
   }
   @keyframes dence {
     0% {
@@ -147,19 +147,19 @@
       transform: none;
     }
   }
-  .intro .header-img .orange,
-  .intro .header-img .robot,
-  .intro .header-img .spaceman,
-  .intro .header-img .ufo {
+  .intro .intro-img .orange,
+  .intro .intro-img .robot,
+  .intro .intro-img .spaceman,
+  .intro .intro-img .ufo {
     display: none;
   }
-  .intro .header-img .yellow {
+  .intro .intro-img .yellow {
     position: absolute;
     bottom: -56%;
     left: -23%;
     width: 1000px;
   }
-  .intro .header-img .rocket_1 {
+  .intro .intro-img .rocket_1 {
     position: absolute;
     top: 25%;
     right: -16%;
@@ -181,11 +181,11 @@
     font-size: 80px;
     padding-bottom: 30px;
   }
-  .intro .intro-inner .header-rocket .rocket {
+  .intro .intro-inner .intro-rocket .rocket {
     position: relative;
     width: 450px;
   }
-  .intro .intro-inner .header-rocket a {
+  .intro .intro-inner .intro-rocket a {
     position: absolute;
     top: 52%;
     left: 50%;
@@ -195,10 +195,10 @@
     color: #fff;
     cursor: pointer;
   }
-  .intro .intro-inner .header-rocket a:hover {
+  .intro .intro-inner .intro-rocket a:hover {
     color: #000;
   }
-  .intro .intro-inner .header-rocket:hover .rocket {
+  .intro .intro-inner .intro-rocket:hover .rocket {
     animation: dence 3s infinite;
   }
   @keyframes dence {
@@ -227,39 +227,39 @@
       transform: none;
     }
   }
-  .intro .header-img .yellow {
+  .intro .intro-img .yellow {
     position: absolute;
     bottom: -57%;
     left: -15%;
     width: 1100px;
   }
-  .intro .header-img .orange {
+  .intro .intro-img .orange {
     display: block;
     position: absolute;
     bottom: -25%;
     right: -10%;
     width: 640px;
   }
-  .intro .header-img .robot {
+  .intro .intro-img .robot {
     display: block;
     position: absolute;
     bottom: 17%;
     right: 0%;
   }
-  .intro .header-img .spaceman {
+  .intro .intro-img .spaceman {
     display: block;
     position: absolute;
     bottom: 24%;
     left: 7%;
     width: 400px;
   }
-  .intro .header-img .ufo {
+  .intro .intro-img .ufo {
     display: block;
     position: absolute;
     top: 10%;
     left: 0%;
   }
-  .intro .header-img .rocket_1 {
+  .intro .intro-img .rocket_1 {
     position: absolute;
     top: 10%;
     right: -7%;
