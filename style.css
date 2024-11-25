@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* setting */
+@import url(/src/css/base/font.css);
+@import url(/src/css/base/reset.css);
+@import url(/src/css/base/vars.css);
+
+/* layout */
+@import url(/src/css/pages/works.css);
+@import url(/src/css/pages/project.css);
+@import url(/src/css/pages/graphic.css);
+@import url(/src/css/pages/about.css);
+@import url(/src/css/pages/contacts.css);
+
+body{
+    font-family: "NotoSans-Regular";
+}
+section{
+    height: 100vh;
+    border: 1px solid #000;
+    
+}

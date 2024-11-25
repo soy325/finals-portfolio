@@ -1,0 +1,14 @@
+.works {
+    background: #000;
+    display: flex;
+    overflow: hidden;
+
+    ul {
+        color: #fff;
+        border: 1px solid #fff;
+        li{
+            border-bottom: 1px solid #fff;
+            padding: 7px;
+        }
+    }
+}

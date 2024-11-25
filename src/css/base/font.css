@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'ghanachoco';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NotoSans-Regular";
+    src: url(./notosans/NotoSansKR-Regular.ttf);
+  }
+
+@font-face {
+    font-family: "NotoSans-Light";
+    src: url(./notosans/NotoSansKR-Light.ttf);
+  }
+
+  @font-face {
+    font-family: "NotoSans-SemiBold";
+    src: url(././notosans/NotoSansKR-SemiBold.ttf);
+  }
+
+  @font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  

@@ -1,0 +1,53 @@
+.project {
+  background: #000;
+  overflow: hidden;
+  color: #fff;
+  position: relative;
+}
+.project .project_intro {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.project .project_intro h2 {
+  font-family: "ghanachoco";
+  font-size: 50px;
+}
+.project .project_intro a {
+  height: 50px;
+  background: #fff;
+  color: #000;
+  display: flex;
+  gap: 50px;
+  padding: 10px 40px;
+  border-radius: 50px;
+}
+.project .project_intro a img {
+  width: 30px;
+  height: 30px;
+}
+.project p {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 160px;
+}
+.project p span {
+  color: #FC6515;
+  font-weight: bold;
+}
+.project .moon {
+  position: absolute;
+  top: 650px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.project ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.project ul img {
+  width: 50px;
+}/*# sourceMappingURL=project.css.map */
