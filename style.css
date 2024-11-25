@@ -6,6 +6,7 @@
 @import url(/src/css/base/vars.css);
 
 /* layout */
+@import url(/src/css/pages/intro.css);
 @import url(/src/css/pages/works.css);
 @import url(/src/css/pages/project.css);
 @import url(/src/css/pages/graphic.css);
