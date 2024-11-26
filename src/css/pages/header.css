@@ -5,11 +5,68 @@ header {
   width: 100%;
   z-index: 99;
   color: #fff;
+  font-family: "ghanachoco";
 }
-header ul {
-  display: flex;
-  gap: 30px;
-  font-size: 21px;
-  justify-content: center;
-  padding: 10px;
+
+@media (max-width: 767px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+  header .header__pc {
+    display: none;
+  }
+  header .header__nav_mobile {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+  }
+  header .header__nav_mobile::before {
+    content: "";
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    top: 10px;
+    right: 0;
+  }
+  header .header__nav_mobile::after {
+    content: "";
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    bottom: 10px;
+    left: 0;
+  }
+  header .header__nav_mobile span {
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+@media (min-width: 768px) {
+  ul {
+    display: flex;
+    gap: 30px;
+    font-size: 21px;
+    justify-content: center;
+    padding: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  ul {
+    display: flex;
+    gap: 30px;
+    font-size: 21px;
+    justify-content: center;
+    padding: 20px;
+  }
 }/*# sourceMappingURL=header.css.map */

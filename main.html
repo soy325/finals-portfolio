@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
     <header>
-        <ul>
+        <ul class="header__pc">
             <li><a href="./index.html">HOME</a></li>
             <li><a href="#works">WORKS</a></li>
             <li><a href="#project">PROJECT</a></li>
@@ -18,27 +19,52 @@
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#contacts">CONTACTS ME</a></li>
         </ul>
+        <div class="header__nav_mobile" id="headerToggle" aria-controls="primaey-menu" aria-expanded="flase"
+            role="button">
+            <span></span>
+        </div>
     </header>
     <section class="works">
-        <div class="works-inner">
-            <img class="tv" src="./src/assets/main/tv.png" alt="">
-            <ul>
-                <li class="on"><a href="#">07.03 러쉬 / 반응형 페이지</a></li>
-                <li><a href="#">07.04 넥슨피시방 / Hover-slide</a></li>
-                <li><a href="#">07.12 조말론 /</a></li>
-                <li><a href="#">07.26 위글위글 /</a></li>
-                <li><a href="#">08.02 디즈니 / Grid</a></li>
-                <li><a href="#">08.21 입생로랑 / Traversing</a></li>
-                <li><a href="#">09.04 지브리 / Scroll</a></li>
-                <li><a href="#">09.24 시엔느 / Slide</a></li>
-                <li><a href="#">09.25 소노리조트 / Accordon</a></li>
-                <li><a href="#">07.03 러쉬 / 반응형 페이지</a></li>
+        <div class="works-intro">
+            <h2>CODEWORKS / PUBLISH</h2>
+            <p>UXUI과정을 공부하면서 만든 작업물을 담았습니다. </p>
         </div>
+        <div class="works-contents">
+            <img class="tv" src="./src/assets/main/fream.png" alt="">
+            <img class="noise" src="./src/assets/main/noise.gif" alt="">
+        </div>
+        <div class="works-container">
+            <img class="prev" src="./src/assets/main/Space-prev.png" alt="">
+            <ul>
+                <li><a href="#"><img src="./src/assets/main/red.png" alt="">소노리조트</a>
+                    <p>Accordon</p>
+                </li>
+                <li><a href="#">more <img src="./src/assets/main/Arrow.png" alt=""></a>
+                    <p><span>1</span> / 10</p>
+                </li>
+            </ul>
+            <img class="next" src="./src/assets/main/Space-next.png" alt="">
+        </div>
+        </div>
+
     </section>
-    <section class="project"></section>
-    <section class="grapich"></section>
-    <section class="about"></section>
-    <section class="contacts"></section>
+    <section class="project">
+        <div class="project_intro">
+            <h2>Design Project</h2>
+            <a href="#">more <img src="./src/assets/main/Right Arrow.png" alt=""></a>
+        </div>
+        <p>생각의 경계를 넘어서<br>
+            <span>유연한 사고</span>와 <span>혁식전인 발상</span>으로<br>
+            무한한 가능성을 만들어나갑니다.
+        </p>
+        <img class="moon" src="./src/assets/main/moon.png" alt="">
+        <ul>
+            <li><a href="#"><img src="./src/assets/main/Space-prev.png" alt="">PREV</a></li>
+            <li><a href="#">NEXT<img src="./src/assets/main/Space-next.png" alt=""></a></li>
+        </ul>
+    </section>
+    <section class="grapich">
+    </section>
 </body>
 
 </html>

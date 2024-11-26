@@ -1,0 +1,226 @@
+.project {
+    background: #000;
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+}
+
+@media (max-width:767px){
+    .project{
+        .project_intro {
+            padding: 100px 30px;
+            h2 {
+                font-family: 'ghanachoco';
+                font-size: 50px;
+                padding-bottom: 20px;
+            }
+    
+            a {
+                // height: 30px;
+                width: 40%;
+                background: #fff;
+                color: #000;
+                display: flex;
+                gap: 50px;
+                justify-content: center;
+                border-radius: 50px;
+                padding: 10px 20px;
+    
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+    
+                &:hover {
+                    background: #FC6515;
+                }
+            }
+    
+        }
+    
+        p {
+            font-size: 30px;
+            text-align: center;
+            padding-top:110px;
+    
+            span {
+                color: #FC6515;
+                font-weight: bold;
+            }
+        }
+    
+        .moon {
+            position: absolute;
+            top: 812px;
+            left: 52%;
+            transform: translateX(-50%);
+            width: 541px
+        }
+    
+        ul {
+            margin-top: 180px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+    
+            img {
+                width: 40px;
+            }
+            a{
+                display: flex;
+                justify-content: space-between;
+                align-items: center; 
+                font-size: 16px; 
+                gap: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width:768px){
+    .project{
+        .project_intro {
+            padding: 150px 50px;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+    
+            h2 {
+                font-family: 'ghanachoco';
+                font-size: 50px;
+            }
+    
+            a {
+                height: 50px;
+                background: #fff;
+                color: #000;
+                display: flex;
+                gap: 50px;
+                padding: 10px 40px;
+                border-radius: 50px;
+    
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+    
+                &:hover {
+                    background: #FC6515;
+                }
+            }
+    
+        }
+    
+        p {
+            font-size: 40px;
+            text-align: center;
+            padding-top: 30px;
+    
+            span {
+                color: #FC6515;
+                font-weight: bold;
+    
+            }
+        }
+    
+        .moon {
+            position: absolute;
+            top: 720px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 700px;
+        }
+    
+        ul {
+            margin-top: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+    
+            img {
+                width: 40px;
+            }
+            a{
+                display: flex;
+                justify-content: space-between;
+                align-items: center; 
+                font-size: 16px; 
+                gap: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width:1200px){
+    .project{
+        .project_intro {
+            padding: 50px;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+    
+            h2 {
+                font-family: 'ghanachoco';
+                font-size: 50px;
+            }
+    
+            a {
+                height: 50px;
+                background: #fff;
+                color: #000;
+                display: flex;
+                gap: 50px;
+                padding: 10px 40px;
+                border-radius: 50px;
+    
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+    
+                &:hover {
+                    background: #FC6515;
+                }
+            }
+    
+        }
+    
+        p {
+            font-size: 50px;
+            text-align: center;
+            padding-top: 160px;
+    
+            span {
+                color: #FC6515;
+                font-weight: bold;
+    
+            }
+        }
+    
+        .moon {
+            position: absolute;
+            top: 650px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    
+        ul {
+            margin-top: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+    
+            img {
+                width: 50px;
+            }
+            a{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;  
+            }
+        }
+    }
+}
