@@ -1,5 +1,85 @@
-@media (max-width:767px){}
+.grapich {
+    background-image: url(/src/assets/header/bg.jpg);
+    background: #000;
+    position: relative;
 
-@media (min-width:768px){}
+    .grapich-col {
+        padding: 100px 50px 30px 50px;
+        color: #fff;
 
-@media (min-width:1200px){}
+        h2 {
+            font-family: 'ghanachoco';
+            font-size: 50px;
+        }
+
+        p {
+            color: #E7C700;
+            font-size: 18px;
+        }
+    }
+
+    .work__wrap {
+        display: flex;
+        width: 200%;
+        gap: 90px;
+        margin-top: 100px;
+        align-items: flex-start;
+        padding: 0 100px;
+
+        .work__list {
+            position: relative;
+            width: 19vw;
+            border: 1px solid #fff;
+            flex-shrink: 0;
+            min-width: 300px;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -30px;
+            transition: .35s;
+
+            img {
+                width: 100%;
+                transition: .35s;
+                filter: saturate(0);
+            }
+
+            .unm {
+                -webkit-text-stroke-color: #fff;
+                -webkit-text-fill-color: #000;
+                -webkit-text-stroke-width: 1px;
+                -webkit-background-clip: text;
+                font-family: 'ghanachoco';
+                position: absolute;
+                left: -70px;
+                top: -56px;
+                font-size: 70px;
+            }
+
+            &:hover {
+                margin-top: 0;
+
+                .unm {
+                    -webkit-text-stroke-color: #E7C700;
+                    -webkit-text-fill-color: #E7C700;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-background-clip: text;
+                }
+
+                img {
+                    margin-top: 0;
+                    filter: none;
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:1200px) {}
