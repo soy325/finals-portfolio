@@ -1,0 +1,111 @@
+.about {
+    background: #000;
+
+    .about-inner {
+        padding: 100px 50px 50px;
+
+        h2 {
+            color: #fff;
+            font-family: 'ghanachoco';
+            font-size: 50px;
+        }
+
+        p {
+            color: #fc6515;
+        }
+    }
+
+    .tab-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #0f0;
+        height: 60vh;
+        color: #fff;
+
+        .tab-container {
+            display: flex;
+            height: 100%;
+
+            .tab-menu {
+                border: 1px solid #0f0;
+
+                p {
+                    color: #fc6515;
+                    font-weight: 700;
+                    font-size: 18px;
+                }
+
+                h2 {
+                    font-size: 36px;
+                }
+            }
+
+            ul {
+                flex-direction: column;
+                padding-top: 100px;
+
+                li {
+                    padding: 10px 0;
+                }
+
+            }
+
+            .tabs {
+                border: 1px solid #0f0;
+                width: 1200px;
+            }
+        }
+    }
+
+
+    .flow {
+        width: 100%;
+        overflow: hidden;
+        padding-top: 20PX;
+
+        .flow__inner {
+            display: flex;
+            padding: 5px;
+            gap: 80px;
+
+            .flow__img {
+                text-align: center;
+                font-weight: 700;
+
+                p {
+                    opacity: 0;
+                    color: #fff;
+                }
+
+                img {
+                    width: 100px;
+                    filter: grayscale(1);
+
+                    &.robot {
+                        filter: none;
+                    }
+                }
+
+                &:hover {
+                    img {
+                        filter: none;
+                    }
+
+                    p {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:1200px) {}
