@@ -1,3 +1,5 @@
+import gsap from 'gsap';
+
 export function graphic() {
     const articles = gsap.utils.toArray('.work__list')
     gsap.to(articles, {

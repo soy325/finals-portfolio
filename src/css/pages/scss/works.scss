@@ -1,6 +1,29 @@
 .works {
-    background: #000;
     position: relative;
+    background: #000;
+
+    .bottom {
+        .cloud-1 {
+            position: absolute;
+            bottom: 0;
+            width: 1902px;
+            z-index: 99;
+        }
+        .cloud-2 {
+            position: absolute;
+            bottom: 0;
+            width: 1902px;
+
+        }
+    }
+
+    .path-1 {
+        fill: transparent;
+        stroke: transparent;
+        stroke-miterlimit: 10;
+        stroke-width: 0.92px;
+    }
+
 
 }
 
@@ -25,7 +48,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 30px;
-        width: 100%;    
+        width: 100%;
 
         .next {
             width: 40px;
@@ -59,11 +82,12 @@
             }
         }
     }
+
     .works-contents {
         width: 400px;
         position: relative;
-        margin:0 auto;
-        
+        margin: 0 auto;
+
         .tv {
             // top: 280px;
             // left: 50%;
@@ -78,7 +102,7 @@
             width: 460px;
             z-index: 99;
         }
-    
+
         .noise {
             // top: 350px;
             // left: 48%;

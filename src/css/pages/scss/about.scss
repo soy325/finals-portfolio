@@ -1,11 +1,11 @@
 .about {
-    background: #000;
+    // background: #000;
+    background-image: url(/src/assets/header/bg.jpg);
 
     .about-inner {
         padding: 100px 50px 50px;
 
         h2 {
-            color: #fff;
             font-family: 'ghanachoco';
             font-size: 50px;
         }
@@ -21,7 +21,7 @@
         align-items: center;
         border: 1px solid #0f0;
         height: 60vh;
-        color: #fff;
+
 
         .tab-container {
             display: flex;
@@ -80,7 +80,7 @@
 
                 img {
                     width: 100px;
-                    filter: grayscale(1);
+                    // filter: grayscale(1);
 
                     &.robot {
                         filter: none;

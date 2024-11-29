@@ -1,6 +1,23 @@
 .works {
-  background: #000;
   position: relative;
+  background: #000;
+}
+.works .bottom .cloud-1 {
+  position: absolute;
+  bottom: 0;
+  width: 1902px;
+  z-index: 99;
+}
+.works .bottom .cloud-2 {
+  position: absolute;
+  bottom: 0;
+  width: 1902px;
+}
+.works .path-1 {
+  fill: transparent;
+  stroke: transparent;
+  stroke-miterlimit: 10;
+  stroke-width: 0.92px;
 }
 
 @media (max-width: 767px) {
@@ -202,4 +219,4 @@
     width: 460px;
     height: 360px;
   }
-}/*# sourceMappingURL=works.css.map */
+}
